@@ -1,0 +1,10 @@
+para quitar break se puede usar una variable de control:
+
+
+bool salir = falso
+for (int i = 1; i <= 10 && !salir; i++){
+    if(i == 5){
+        salir = true;
+    }
+    cout << i << endl;
+}
